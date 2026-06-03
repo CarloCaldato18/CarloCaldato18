@@ -1,0 +1,20 @@
+/* Write your code here: */
+h1, h2{ /*con questo sto prendendo generalmente tutti gli h1 egli h2 della pagina, ossia i due elementi specificati*/
+    color: blueviolet;
+}
+
+.box > p{ /*con ciò mi riferisco al figlio diretto (quello subito sotto) dell'elemento padre, ossia quello prima di ">"*/
+    color: firebrick;
+}
+
+.box li{ /*con ciò mi riferisco a tutti gli elementi del secondo specificato, figli del primo*/
+    color: blue;
+}
+
+li.done{ /*specifico un particolare elemento con una data classe/attributo/ecc..*/
+    color: seagreen;
+}
+
+ul p.done{ /*combinazione dei sue selettori visti sopra*/
+    font-size: 0.5rem;
+}
